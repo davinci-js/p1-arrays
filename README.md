@@ -26,6 +26,14 @@ console.log(arr2);  /* [1, 2] */
 
 6- Crear una funcion que, a partir de un array numerico, encuentre cual es el valor minimo dentro de este y lo devuelva.
 
+7- Crear una funcion que, a partir de un array, un indice y un elemento, inserte en el array el elemento en el indice indicado. No se borra el elemento que estaba originalmente en esa posicion, el array va a tener un elemento nuevo. Ejemplo:
+
+```javascript
+let arr = [1, 2, 3, 4];
+insert(arr, 8, 1);
+console.log(arr);   /* [1, 8, 2, 3, 4] */
+```
+
 ## Parte 2
 
 1- Crear un programa que me permita cargar una lista de alumnos uno por uno. Cuando se desee, se debe poder mostrar la lista completa con un boton.
